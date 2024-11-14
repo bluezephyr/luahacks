@@ -1,0 +1,13 @@
+BasedOnStyle: WebKit
+ColumnLimit: 160
+BreakBeforeBraces: Custom
+BraceWrapping :
+  AfterFunction: false
+IndentWidth: 4
+AlignConsecutiveMacros: true
+AlignConsecutiveDeclarations: true
+AlignEscapedNewlines: Left
+AllowShortFunctionsOnASingleLine: None
+SortIncludes: false
+AlignConsecutiveAssignments: Consecutive
+CommentPragmas: "^lint"
