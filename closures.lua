@@ -13,13 +13,13 @@ local function inc(start)
 end
 
 local i1 = inc()
-print("i1 created - no base")
+print("i1 created - default start")
 local i2 = inc(5)
-print("i2 created - base 5")
-print("i1: " .. i1())
-print("i1: " .. i1())
-print("i2: " .. i2())
+print("i2 created - start at 5")
+print("i1: " .. i1()) --> i1: 3
+print("i1: " .. i1()) --> i1: 4
+print("i2: " .. i2()) --> i2: 6
 base = base + 3
 print("base increased: " .. base)
-print("i1: " .. i1())
-print("i2: " .. i2())
+print("i1: " .. i1()) --> i1: 5
+print("i2: " .. i2()) --> i2: 7
